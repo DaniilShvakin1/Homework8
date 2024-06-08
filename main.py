@@ -39,12 +39,9 @@ class Library:
 
 book1 = Book("Harry Potter ","Rowling")
 book2 = Book("George Orwell", "1984")
-
-
 library = Library("My Library")
 library.add_book(book1)
 library.add_book(book2)
-
 library.remove_book("1984")
 
 
